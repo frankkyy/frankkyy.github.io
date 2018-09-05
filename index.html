@@ -1,0 +1,55 @@
+<html>
+<title>smef.pw</title>
+<link rel="icon" href="https://smef.pw/icon.png?v4" type="image/png">
+<body onload="checkURL()" oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onkeydown="return false">
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="style.css?">
+<script src="event.js"></script>
+<script src="old.title.js?"></script>
+<!-- legacy title changer
+    <script src="https://smef.pw/title.js?v4"></script> -->
+<embed src="music.mp3?track=1" volume="0.314159265359" autostart="true" loop="true" width="0" height="0">
+
+<div id="mid">
+<p>smef.pw</p>
+<a onclick="twitter()" target="_blank" href="https://twitter.com/smef">twitter</a> -
+<!--<a onclick="selly()" target="_blank" href="https://selly.gg/@smef">selly</a> - -->
+<a onclick="discord()" target="_blank" href="https://discord.gg/fsTtNRf">discord</a> -
+<a onclick="youtube()" target="_blank" href="https://youtube.com/smefpw">youtube</a></div>
+<font face="verdana"><div id="smefpw"><font color="#95b806">[annihilated]</font> welcome to smef.pw<br><font color="#95b806">[annihilated]</font> site updated 03/09/2018<br><font color="#95b806">[annihilated]</font> song essence - you never called
+<br><font color="#95b806">[annihilated]</font> current time <span id="doc_time">date_data</span></div><div id="smefpw2"></div></font>
+<script type="text/javascript">
+      function clock() {
+      var d = new Date();
+      var hours = d.getHours();
+      var minutes = d.getMinutes();
+      var seconds = d.getSeconds();
+      
+      
+      if (hours <= 9) hours = "0" + hours;
+      if (minutes <= 9) minutes = "0" + minutes;
+      if (seconds <= 9) seconds = "0" + seconds;
+      
+      date_time = hours + ":" + minutes + ":" + seconds;
+      if (document.layers) {
+       document.layers.doc_time.document.write(date_time);
+       document.layers.doc_time.document.close();
+      }
+      else document.getElementById("doc_time").innerHTML = date_time;
+       setTimeout("clock()", 1000);
+      }
+   </script>
+   <script type="text/javascript">
+      clock();
+   </script>
+</body>
+</html>
+
+<!--
+property of smef.pw
+
+song: essence - you never called
+
+annihilated is branded under company EightSec Digital LTD, I request that any body using my public event
+logger renames the "annihilated" branding. Thank you!
+-->
